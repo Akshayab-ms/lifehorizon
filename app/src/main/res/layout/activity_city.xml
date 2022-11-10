@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grd_color_view"
+    android:layout_height="match_parent"
+    tools:context=".CityActivity">
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/tv_grad"
+        android:layout_marginEnd="32dp"
+        android:hint="First Preference"
+        app:layout_constraintEnd_toStartOf="@+id/tv_firstp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tv_firstp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:background="@drawable/tv_grad"
+        android:textStyle="bold"
+        android:layout_marginEnd="102dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_first" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/tv_grad"
+        android:layout_marginStart="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/tv_grad"
+        android:hint="second preference"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_first"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/tv_first" />
+
+    <TextView
+        android:id="@+id/tv_secondp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_grad"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_second"
+        app:layout_constraintEnd_toEndOf="@+id/tv_firstp"
+        app:layout_constraintStart_toStartOf="@+id/tv_firstp"
+        app:layout_constraintTop_toTopOf="@+id/tv_second" />
+
+    <TextView
+        android:id="@+id/tv_third"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/tv_grad"
+        android:text="Third preference"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_second"
+        app:layout_constraintStart_toStartOf="@+id/tv_second"
+        app:layout_constraintTop_toBottomOf="@+id/tv_second" />
+
+    <TextView
+        android:id="@+id/tv_thirdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TextView"
+        android:background="@drawable/tv_grad"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_third"
+        app:layout_constraintEnd_toEndOf="@+id/tv_secondp"
+        app:layout_constraintStart_toStartOf="@+id/tv_secondp"
+        app:layout_constraintTop_toTopOf="@+id/tv_third" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+
+        android:gravity="center"
+       android:textColor="@color/black"
+        android:background="@drawable/tv_grad"
+        android:textStyle="bold"
+        android:text="Your Top suggestions are Here"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_firstp"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
