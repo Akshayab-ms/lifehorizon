@@ -1,18 +1,19 @@
 # lifehorizon
 
-This app is used to help the user to select the top 3 cities by considering the below factors 
-factorsa are 
-climate
-cost of living 
-medical
-night life 
-job oportunities
+This app is used to help the user to select the top 3 cities by considering the below factors ::::::::
+factors are :climate,
+cost of living ,
+medical,
+night life and 
+job oportunities.
+:::::::::::::::::::::::::
 
-suggestion will be based on  the aggregation of all his/her weightages given to each factor
+suggestion will be based on  the aggregation of all his/her weightages given to each factor.
+.........................
 
-clicking any of those 3 cities will give more details about the city  including todays weather 
+clicking any of those 3 cities will give more details about the city  including todays weather .
 
-
+........................................................
 
 Technical description
 ::::::
